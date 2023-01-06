@@ -1,4 +1,6 @@
-let a = 1;
-console.log(a);
-a = 'test';
-console.log(a);
+const project = 'Сайт';
+const price = 2000;
+const author = 'Вася';
+
+const template = `${author} заказал ${project} \nпо цене ${price}$`;
+console.log(template);
